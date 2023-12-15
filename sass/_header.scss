@@ -1,0 +1,67 @@
+.header-{
+  &container {
+    background-image: url("../assets/img/hamburger1.jpg");
+    padding: 0 100px;
+    background-repeat: no-repeat;
+  background-position: center;
+  }
+
+  &head {
+    display: flex;
+    align-items: center;
+  }
+
+  &list {
+    display: flex;
+    margin-left: 500px;
+  }
+  &list-nav {
+    margin: 0 15px ;
+  }
+  &list-link {
+    color: white;
+    
+  }
+
+  &cart {
+    margin-left: auto;
+    i{
+        margin: 0 10px;
+    }
+  }
+  &btn-online{
+    background-color: yellow;
+    height: 30px;
+    border-radius: 50px;
+    outline:none;
+    border :none;
+
+    a{
+        padding:10px 20px;
+    }
+  }
+
+  &hero{
+    margin:100px 0;
+    width: 40%;
+  }
+  &desc{
+    margin: 40px 0;
+  }
+
+  &bottom{
+    margin-top: 40px ;
+    padding-bottom: 50px;
+    display: flex;
+  }
+  &btn-carousel{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 0 10px;
+    outline: none;
+    border: none;
+  }
+  
+}
